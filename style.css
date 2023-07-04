@@ -135,8 +135,8 @@ select {
 }
 
 .hostText {
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 2.3em;
+  margin-right: 2.3em;
 }
 
 /* -------  Footer ------- */
@@ -152,3 +152,34 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+/* This applies from 480px and larger */
+@media all and (min-width: 480px) {
+  form {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ff385c;
+    padding: 10px;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .aboutContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+  }
+  #ideasContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+  }
+  .ideaIMG {
+    width: 700px;
+  }
+}
