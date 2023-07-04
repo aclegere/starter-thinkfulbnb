@@ -125,12 +125,20 @@ select {
   width: 300px;
 }
 
+/* -------  Ideas  ------- */
+.ideaIMG{
+  width: 300px;
+}
 /* -------  Host  ------- */
 #host {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#host {
+  width: 300px;
 }
 
 .hostText {
