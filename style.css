@@ -140,6 +140,10 @@ select {
   align-items: center;
 }
 
+.ideaIMG {
+  width: 300px;
+}
+
 /* -------  Host  ------- */
 #host {
   display: flex;
