@@ -125,10 +125,7 @@ select {
   width: 300px;
 }
 
-/* -------  Ideas  ------- */
-.ideaIMG{
-  width: 300px;
-}
+
 /* -------  Host  ------- */
 #host {
   display: flex;
@@ -218,7 +215,7 @@ footer p {
     gap: 1em;
   }
   .ideaIMG {
-    width: 600px;
+    width: 300px;
   }
   
 }
