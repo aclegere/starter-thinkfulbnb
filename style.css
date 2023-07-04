@@ -125,6 +125,20 @@ select {
   width: 300px;
 }
 
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* -------  Ideas  ------- */
+
+#ideas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* -------  Host  ------- */
 #host {
