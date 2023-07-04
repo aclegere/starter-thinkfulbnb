@@ -30,7 +30,9 @@ section.alternate-background {
   color: #fff;
 }
 
-
+img {
+  width: 300px;
+}
 
 /* ---  Groups & Items --- */
 
@@ -120,17 +122,15 @@ select {
 
 /* -------  About  ------- */
 
-#about img {
-  padding: 20px 0;
-  width: 300px;
-}
-
-#about{
+#about, .aboutIMG{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1em;
 }
+
+.aboutIMG {margin-bottom: 1em;}
 /* -------  Ideas  ------- */
 
 #ideas {
@@ -138,10 +138,6 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.ideaIMG {
-  width: 300px;
 }
 
 /* -------  Host  ------- */
@@ -206,6 +202,9 @@ footer p {
     flex-direction: row;
     gap: 2em;
   }
+  #aboutText {
+    margin-right: 5em;
+  }
   #ideasContainer {
     display: flex;
     flex-flow: row;
@@ -220,6 +219,9 @@ footer p {
     flex-direction: row;
   }
   #hostIMG {
+    width: 600px;
+  }
+  .hostText {
     width: 600px;
   }
 }
